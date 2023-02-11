@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nft.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/c938b4496b.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+</head>
+<body class="body">
+    <!-- <div class="slider"></div>
+    <div class="welcome">
+        <h1><span> welcome to inovation,</span></h1>
+        <h1><span>biggest nft's marketplace</span></h1>
+        <h1><span>for everyday people.</span></h1>
+    </div> -->
+    <marquee behavior="" direction="" id="marquee">
+        <div class="mainCont">
+            <!-- <div class="cont">
+                <img src="./pictures/btc.png" alt="">
+                <h1 class="name">BTC</h1>
+                <h2 class="price">$1200</h2>
+                <div class="mark">
+                    <h4 class="marketcap">2000 <p> marketcap</p></h4>
+                    <h6 class="volume">67487378 <p> volume</p></h6>
+                </div>
+            </div> -->
+        </div>
+        
+    </marquee>
+    <div class="cancel">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="bar">
+        <div class="pro-bar"></div>
+    </div>
+    <header>
+        
+        <nav class="nav">
+            <div class="logo">
+                <img src="./pictures/letter-z.png" alt="">
+                <h1>endot</h1>
+            </div>
+
+            <div class="middle">
+                <span class="material-symbols-outlined" id="search">search</span>
+                 <input type="text" placeholder="search items, nfts, and accounts">
+            </div>
+
+            <div class="list">
+                <ul>
+                    <li class="ex">
+                        <a href="" class="a">
+                            explore
+                        </a>
+                        <div class="sub-menu-ex">
+                            <ul>
+                                <li><a href="">nft</a></li>
+                                <li><a href="">collections</a></li>
+                                <li><a href="">web3</a></li>
+                                <li><a href="">ethereum</a></li>
+                                <li><a href="">solano</a></li>
+                                <li><a href="">binance</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+
+                    <li class="create">
+                        <a href="#" class="a">create</a>
+                        <div class="sub-create-menu">
+                            <ul>
+                                <li><a href="">
+                                    create account</a>
+                                    <span class="material-symbols-outlined">
+                                        person
+                                        </span>
+                                </li>
+                                <li><a href="">settings</a>
+                                    <span class="material-symbols-outlined">
+                                    settings
+                                    </span>
+                                </li>
+                                <li id="darkmode"><a class="modename" href="#">dark mode</a>
+                                    <i class="fa-solid fa-moon" id="moon"></i>
+                                </li>    
+                                <li class="language">
+                                    <a href="">language</a>
+                                    <span class="material-symbols-outlined">
+                                    language
+                                    </span>
+                                    <div class="language-sub">
+                                        <ul>
+                                            <li class="active">english</li>
+                                            <li>spanish</li>
+                                            <li>french</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div class="extra">
+                    <button>rewards</button>
+                    <button class="wallet">connect wallet 
+                        <span class="material-symbols-outlined">
+                        account_balance_wallet
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="main-intro">
+            <div class="contents">
+                <h1>nft's is the beauty of the world</h1>
+                <h3>Zendot is one of the biggest nft's marketplace to buy,sell or become a collector of nfts</h3>
+                <div>
+                    <button class="btn-EX">EXPLORE</button>
+                    <button class="btn-buy">BUY</button>
+                </div>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="img1" src="./pictures/slide1.webp" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="img1" src="./pictures/slide2.png" alt="">
+                    </div>
+                  
+                    <div class="swiper-slide">
+                        <img class="img1" src="./pictures/mutant-ape-yacht-club-nft-artwork-collection-set-unique-bored-monkey-character-nfts-variant_361671-259.webp" alt="">
+                    </div>
+                </div>
+                <div class="scrollbar">
+                    <div class="swiper-scrollbar" id="ss"></div>
+                </div>
+                <div class="pag">
+                    <div class="swiper-button-next" id="nextt"></div>
+                    <div class="swiper-button-prev" id="prevv"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="big">
+        <div class="showcase">
+            <p>top 10 most trending nft's in zendot market-place</p>
+        </div>
+    </div>
+   
+
+
+    <section class="trending">
+        <div class="heading">
+            <div class="button">
+                <button class="active">TRENDING</button>
+                <button>TOP</button>
+            </div>
+            <div class="options">
+                <select name="" id="chains">
+                    <option value="">all chains</option>
+                    <option value="">binance</option>
+                    <option value="">ethereum</option>
+                </select>
+                <select name="" id="hours">
+                    <option value="">24h</option>
+                    <option value="">1h</option>
+                    <option value="">6h</option>
+                    <option value="">12h</option>
+                    <option value="">1d</option>
+                </select>
+                <button class="view-all">view all</button>
+            </div>
+        </div>
+
+        <div class="collections">
+            <div class="batch1">
+                <div class="sections">
+                    <h3>collections</h3>
+                    <h3>floor price</h3>
+                    <h3>volume</h3>
+                </div>
+
+                <div class="eachitem">
+                    <ol start="1">
+                        <li data-chain="binance">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft1.webp" alt="">
+                                    <h1 class="name">junks nft</h1>
+                                </div>
+                                <h1 class="price">4 ETH</h1>
+                                <h1 class="volume">650</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="binance">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft2.webp" alt="">
+                                    <h1 class="name">cypluxJUNKS</h1>
+                                </div>
+                                <h1 class="price">5 ETH</h1>
+                                <h1 class="volume">3000</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="ethereum">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft3.jpg" alt="">
+                                    <h1 class="name">xmam crypto</h1>
+                                </div>
+                                <h1 class="price">7 ETH</h1>
+                                <h1 class="volume">1002</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="binance">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft4.jpg" alt="">
+                                    <h1 class="name">dex</h1>
+                                </div>
+                                <h1 class="price">0.05 ETH</h1>
+                                <h1 class="volume">800</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="ethereum">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft5.jpeg" alt="">
+                                    <h1 class="name">prospetix</h1>
+                                </div>
+                                <h1 class="price">9.06 ETH</h1>
+                                <h1 class="volume">720</h1>
+                            </a>
+                        </li>
+                       
+                    </ol>
+                    
+                </div>
+            </div>
+            <div class="batch1">
+                <div class="sections">
+                    <h3>collections</h3>
+                    <h3>floor price</h3>
+                    <h3>volume</h3>
+                </div>
+
+                <div class="eachitem">
+                    <ol start="6">
+                        <li data-chain="binance">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft6.avif" alt="">
+                                    <h1 class="name">nft crackers</h1>
+                                </div>
+                                <h1 class="price">0.12 ETH</h1>
+                                <h1 class="volume">304</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="ethereum">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft7.jpg" alt="">
+                                    <h1 class="name">solano man</h1>
+                                </div>
+                                <h1 class="price">1.12 ETH</h1>
+                                <h1 class="volume">200</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="binance">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft8.jpeg" alt="">
+                                    <h1 class="name">man of chess</h1>
+                                </div>
+                                <h1 class="price">0.09 ETH</h1>
+                                <h1 class="volume">800</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="binance">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures/nft9.png" alt="">
+                                    <h1 class="name">nft maker</h1>
+                                </div>
+                                <h1 class="price">3.12 ETH</h1>
+                                <h1 class="volume">301</h1>
+                            </a>
+                        </li>
+
+                        <li data-chain="ethereum">
+                            <a href="">
+                                <div class="avi">
+                                    <img src="./pictures//nft10.png" alt="">
+                                    <h1 class="name">bluster</h1>
+                                </div>
+                                <h1 class="price">5 ETH</h1>
+                                <h1 class="volume">2400</h1>
+                            </a>
+                        </li>
+                       
+                    </ol>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </section>
+
+    <section class="slide">
+        <div class="changingtext">
+           <h3>Zendot has most
+             <div class="texts">
+               <div class="textcont"> 
+                    <h1> ANTIQUE</h1>
+                    <h1 class="exq"> EXQUISITE</h1>
+                    <h1> NOTABLE</h1>
+               </div> 
+             </div>nft
+            </h3>
+        </div>
+
+
+        <div class="content">
+            <div class="swiper myContent">
+                <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                    <img src="./pictures/nft 11.webp" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="./pictures/nft 18.jpg" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./pictures/nft 15.webp" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./pictures/nft 12.webp" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./pictures/nft16.jpg" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./pictures/nft13.webp" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./pictures/nft20.jpeg" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./pictures/nft 17.webp" alt="">
+                    <div class="desc">
+                        <h1 class="name">cryptoLOrds</h1>
+                        <p class="about">release on june 9,2017 by larva labs. this is the
+                            origina ERC-721 wrapper.
+                        </p>
+                        <div class="details">
+                            <div class="each">
+                                <h4>volume</h4>
+                                <h1>42.5k ETH</h1>
+                            </div>
+                            <div class="each">
+                                <h4>floor</h4>
+                                <h1>5.74 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="more">
+                        <span class="material-symbols-outlined" id="forward">
+                            arrow_forward
+                        </span>
+                        <h3 class="next">more</h3>
+                    </a>
+                  </div>
+                  
+                </div>
+                <div class="swiper-button-next" id="next"></div>
+                <div class="swiper-button-prev" id="prev"></div>
+
+                <span class="material-symbols-outlined" id="newR">
+                    arrow_right
+                </span>
+                <span class="material-symbols-outlined" id="newL">
+                        arrow_left
+                </span>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footbar">
+        <h1>sponsors</h1>
+        <div class="sponsors">
+            <img src="./pictures/gsap-greensock.svg" alt="">
+            <img src="./pictures/google.png" alt="">
+            <img src="./pictures/binance1.webp" alt="">
+        </div>
+        <div class="mainfoot">
+            <div class="first">
+                <div class="about">
+                    <div>
+                        <h2>ABOUT US</h2>
+                        <h4>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos asperiores distinctio veritatis minima laudantium sint, reprehenderit ipsum quisquam commodi sit velit officia, aspernatur eveniet ipsa aut deserunt ut nihil numquam.
+                        </h4>
+                    </div>
+                    <div class="inputnet">
+                        <h2>EmAIL US</h2>
+                        <input type="text" name="" id="" inputmode="email" placeholder="your email">
+                        <span class="material-symbols-outlined" id="arrowg">
+                            arrow_right_alt
+                            </span>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="second">
+                <div class="contact">
+                    <h2>follow us on</h2>
+                    <div class="fa-3x">
+                        <i class="fa-brands fa-facebook fa-beat"></i>
+                        <i class="fa-brands fa-instagram fa-fade"></i>
+                        <i class="fa-brands fa-youtube fa-beat"></i>
+                        <i class="fa-brands fa-twitter fa-fade"></i>
+                        <i class="fa-brands fa-twitch fa-beat-fade""></i>
+                        <i class="fa-brands fa-tiktok fa-shake"></i>
+                        <i class="fa-brands fa-reddit fa-flip" style="--fa-animation-duration: 3s;"></i>
+                       
+                    </div>
+                      
+                    <div class="download">
+                        <h2>download zendot app</h2>
+                        <div>
+                            <a href="#">
+                                <i class="fa-brands fa-apple"></i>
+                                <h3>app store</h3>
+                            </a>
+                            <a href="#">
+                                <img src="./pictures/googeicon.avif" alt="">
+                                <h3>play store</h3>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="third">
+                <h1>LINKS</h1>
+                <div>
+                    <h3><a href="#">Home</a></h3>
+                    <h3><a href="#">become a marchant</a></h3>
+                    <h3><a href="#">top collectors</a></h3>
+                    <h3><a href="#">zendot token</a></h3>
+                    <h3><a href="#">branding</a></h3>
+                    <h3><a href="#">bug bounty</a></h3>
+                </div>
+                <div class="mode">
+                    <div>
+                        <i class="fa-regular fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="first">
+                <div class="about">
+                    <h4>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos asperiores distinctio veritatis minima laudantium sint, reprehenderit ipsum quisquam commodi sit velit officia, aspernatur eveniet ipsa aut deserunt ut nihil numquam.
+                    </h4>
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+
+            <div class="first">
+                <div class="about">
+                    <div>
+                        <h4>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos asperiores distinctio veritatis minima laudantium sint, reprehenderit ipsum quisquam commodi sit velit officia, aspernatur eveniet ipsa aut deserunt ut nihil numquam.
+                        </h4>
+                    </div>
+                    
+                    <input type="text" name="" id="">
+                </div>
+            </div> -->
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./nft.js"></script>
+    <script>
+
+
+
+
+       var swiper = new Swiper(".myContent", {
+      spaceBetween: 30,
+      slidesPerView: 4,
+      centeredSlides: true,
+      freeMode: true,
+      grabCursor: true,
+      autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+       var swiper = new Swiper(".mySwiper", {
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        //   hide: true,
+          
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-next",
+        },
+      });
+
+
+
+    //   gsap.registerPlugin(ScrollTrigger);
+    //   gsap.to('a',{
+    //     color:'black`   ',
+    //     scrollTrigger:{
+    //         trigger: '.main-intro',
+    //           start: "20 100",
+    //           scrub: 1,
+    //     }
+       
+    //   }),
+
+    //   ScrollTrigger.create({
+    //           trigger: '.main-intro',
+    //           start: "20 100",
+    //           end: '500 50',
+    //           scrub: 1,
+    //           toggleClass:{
+    //             targets:'.trending', className:'show',
+    //           },
+    //           markers: true,
+    //   })
+    
+      let tl = gsap.timeline();
+        
+      tl.fromTo(".welcome h1 span", {
+        opacity:0, duration:1},{opacity:1,duration:1,stagger:0.5,y:'0px',delay:2})
+        tl.to('.slider', {y:"-100vh", ease: "power2.out", duration:2,delay:1})
+        tl.to(".welcome", {y:"-100vh", ease: "power2.out", zIndex:9999, duration:2, })
+        
+        tl.set(".body", {overflowY:"auto"})
+        tl.fromTo('nav', {opacity:0},{opacity:1, duration:1, ease:"power2.out"})
+        tl.fromTo('a',{color:'white'},{color:'white'})
+        // tl.to('li',{backgroundColor:'rgb(24, 14, 14)'})
+        // tl.to('button', {backgroundColor:'rgb(24, 14, 14)',color:'white'})
+
+        
+        gsap.to(".showcase p", {
+            ease:"power2.out",
+            opacity:1,
+            marginTop: "-20px",
+            duration:5,
+            scrollTrigger:{
+                trigger: ".showcase",
+                // markers:{
+                //     startColor:'white',
+                //     endColor:"blue"
+                // },
+                start: 'top 493px',
+                end: 'top 0px',
+                scrub:1,
+            }
+        })
+
+        ScrollTrigger.create({
+            trigger:".showcase",
+            // markers: {
+            //     startColor:"yellow",
+            //     endColor: "green"
+            // },
+            pin: true,
+            start: 'top 140px',
+            end: "800px 360px",
+            scrub: 1,
+            
+        })
+
+
+        ScrollTrigger.create({
+            trigger: '.slide',
+            markers: {
+                startColor:"blue",
+                endColor: "blue"
+            },
+            pin: true,
+            pinSpacing: false,
+            start: 'top 15%',
+            // end: "bottom 1%",
+            scrub: 1,
+        })
+
+        ScrollTrigger.create({
+            trigger: '.footbar',
+            markers: {
+                startColor:"red",
+            },
+            pin: true,
+            pinSpacing: false,
+            start: 'top 100px',
+            end: 'bottom  0px',
+            scrub: 2,
+            ease: "power2.out"
+        })
+    </script>
+</body>
+</html>
